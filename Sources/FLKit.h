@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double FLKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char FLKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FLKit/PublicHeader.h>
+#import "UIView+Additions.h"
 
 

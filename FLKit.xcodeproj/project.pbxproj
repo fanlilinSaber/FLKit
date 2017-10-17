@@ -18,6 +18,8 @@
 		48F9239A1F95E00A0018CFD8 /* FLKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48F923921F95E00A0018CFD8 /* FLKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		48F923A21F95E0C70018CFD8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48F923A11F95E0C70018CFD8 /* Info.plist */; };
 		48F923A51F95E20E0018CFD8 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F923A31F95E20E0018CFD8 /* UIView+Additions.m */; };
+		48F923A61F95FC6A0018CFD8 /* FLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F923A01F95E0C70018CFD8 /* FLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F923A71F95FCBC0018CFD8 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F923A41F95E20E0018CFD8 /* UIView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F923A61F95FC6A0018CFD8 /* FLKit.h in Headers */,
+				48F923A71F95FCBC0018CFD8 /* UIView+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +481,7 @@
 				48F9239D1F95E00A0018CFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
