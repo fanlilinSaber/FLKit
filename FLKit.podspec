@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = "1.0.0"
   s.summary = "Simplify FLKit."
   s.homepage = "https://github.com/fanlilinSaber/FLKit"
-  s.license = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "fanlilin" => 'fanlilin@ifocusing.com' }
   s.platform = :ios,"8.4"
   s.source = { :git => "https://github.com/fanlilinSaber/FLKit.git", :tag => "v#{s.version}", :submodules => "true" }
