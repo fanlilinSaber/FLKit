@@ -7,8 +7,17 @@ Pod::Spec.new do |s|
   s.author = { "fanlilin" => 'fanlilin@ifocusing.com' }
   s.platform = :ios,"8.4"
   s.source = { :git => "https://github.com/fanlilinSaber/FLKit.git", :tag => "v#{s.version}", :submodules => "true" }
-  s.source_files  = "Sources/**/*.{h,m}"
+  s.public_header_files = "Sources/FLKit.h"
+  s.source_files = "Sources/FLKit.h"
   
+  s.subspec "Category" do |ss|
+    ss.source_files = "Sources/Category/**/*"
+  end
+  
+  s.subspec "Text" do |ss|
+    ss.source_files = "Sources/Text/**/*"
+    ss.dependency "Sources/Category"
+  end
   
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"

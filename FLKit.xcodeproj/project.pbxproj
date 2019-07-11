@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48B6DB8122D6F4DB006C3E37 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DB8022D6F4DB006C3E37 /* Text.m */; };
 		48F923861F95DF7F0018CFD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9237C1F95DF7E0018CFD8 /* AppDelegate.m */; };
 		48F923871F95DF7F0018CFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F9237D1F95DF7E0018CFD8 /* Assets.xcassets */; };
 		48F923881F95DF7F0018CFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F9237E1F95DF7E0018CFD8 /* LaunchScreen.storyboard */; };
@@ -47,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		48B6DB7F22D6F4DB006C3E37 /* Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		48B6DB8022D6F4DB006C3E37 /* Text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
 		48F923601F95DF3E0018CFD8 /* FLKit iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLKit iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F9237B1F95DF7E0018CFD8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48F9237C1F95DF7E0018CFD8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48B6DB7D22D6F4A8006C3E37 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				48F923A41F95E20E0018CFD8 /* UIView+Additions.h */,
+				48F923A31F95E20E0018CFD8 /* UIView+Additions.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		48B6DB7E22D6F4C4006C3E37 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				48B6DB7F22D6F4DB006C3E37 /* Text.h */,
+				48B6DB8022D6F4DB006C3E37 /* Text.m */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		48F923571F95DF3E0018CFD8 = {
 			isa = PBXGroup;
 			children = (
@@ -120,8 +141,8 @@
 		48F9239F1F95E0C70018CFD8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				48F923A41F95E20E0018CFD8 /* UIView+Additions.h */,
-				48F923A31F95E20E0018CFD8 /* UIView+Additions.m */,
+				48B6DB7E22D6F4C4006C3E37 /* Text */,
+				48B6DB7D22D6F4A8006C3E37 /* Category */,
 				48F923A01F95E0C70018CFD8 /* FLKit.h */,
 				48F923A11F95E0C70018CFD8 /* Info.plist */,
 			);
@@ -206,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B6DB8122D6F4DB006C3E37 /* Text.m in Sources */,
 				48F923A51F95E20E0018CFD8 /* UIView+Additions.m in Sources */,
 				48F9238C1F95DF7F0018CFD8 /* ViewController.m in Sources */,
 				48F9238B1F95DF7F0018CFD8 /* main.m in Sources */,
