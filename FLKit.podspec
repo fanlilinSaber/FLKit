@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   
   s.subspec "Text" do |ss|
     ss.source_files = "Sources/Text/**/*"
-    ss.dependency "Sources/Category"
+    ss.dependency "FLKit/Category/*"
   end
   
   # s.resource  = "icon.png"
